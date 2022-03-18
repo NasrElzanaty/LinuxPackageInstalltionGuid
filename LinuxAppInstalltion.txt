@@ -1,0 +1,29 @@
+download the apache from the below link:
+https://www.apachefriends.org/download.html
+move to the download folder and open terminal, or cd to download location
+cd /downloads
+## change the permission using chmod +x
+sudo chmod +x xampp-linux-x64-8.1.2-0-installer.run 
+## now run installer
+sudo ./xampp-linux-x64-8.1.2-0-installer.run 
+## installion completed
+## run the app
+## to check the installion,head to localhost/.daashboard/
+##check PHP,head to htpp://localhost/PHP
+
+## how to run the apache:
+cd /opt/lampp/
+ls
+sudo ./manager-linux-x64.run ## will start the control panel
+/opt/lampp/
+cd /opt/lampp/htdocs >>enter
+sudo gedit myphp.PHP >> create a file to run
+ <?PHP
+ echo "hello world";
+ ?>
+ ## now save the file
+ ## change the mode using chmod +x
+sudo chmod +x (file name), enter
+move to htpp://localhost/PHP/fileName
+
+## for all command in opt, use sudo
