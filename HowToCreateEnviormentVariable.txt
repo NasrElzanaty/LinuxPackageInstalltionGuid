@@ -36,3 +36,71 @@ unset TOBEREMOVED
 // unset work only in temp session
 
 
+
+to check which python3 location you have:
+run which python3
+
+use nano .bashrc
+get to the button
+
+export VARIABLE NAME IN CAPITALE LETTER
+
+EX:
+export NAME="Nasr"
+
+control S control X
+
+update the file, or you can call it source it
+source .bashrc
+
+printenv
+
+// to have the Variable to the shell so that any user can use:
+
+cd ..
+ls
+cd etc
+nano environment
+
+// in the same file write:
+
+export GLOBALE ="test" // save an exit
+source environment
+
+// to see the newly added variable; run echo $GLOBALE
+
+// unset a variable
+
+export TOBEREMOVED ="BYE"
+printenv TOBEREMOVED
+
+unset TOBEREMOVED
+// unset work only in temp session
+
+
+type python3
+python3 is /home/nk/anaconda3/bin/python3
+
+## to list all environment variable
+echo $PATH
+
+PATH="path text here" //no space
+
+EX:
+
+PATH="XXXXXXXXXX:${PATH}"
+export PATH
+
+// Restart terminal
+
+// to create the alias:
+alias python=python3
+
+// to added the alias to the shell:
+nano .bashrc
+alias python=python3
+
+// save and exit
+// restart terminal
+
+pip show django // show location
